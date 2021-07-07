@@ -1,0 +1,13 @@
+name: "CodeQL config"
+
+disable-default-queries: true
+
+languages: java
+
+queries:
+  - uses: security-and-quality
+
+paths:
+  - src 
+paths-ignore:
+  - '/src/test/'
